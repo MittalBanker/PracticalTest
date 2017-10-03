@@ -52,7 +52,6 @@ class ViewController: UIViewController, PTLocationServiceDelegate {
             }
             // error does not exist/ false.
         }
-
     UserDefaults.standard.set(btnLocationOnOff.isSelected                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   , forKey: "locationUpdate")
         UserDefaults.standard.synchronize()
         

@@ -29,6 +29,7 @@ class GlobalTimer: NSObject {
 
     }
 
+    /* check the date and call update location according to it*/
     func fireTimerAction(sender: AnyObject?){
         if(AppDelegate.shared().vehicleStarted==false){
         AppDelegate.shared().vehicleStarted = true
